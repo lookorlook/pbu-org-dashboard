@@ -1,5 +1,12 @@
 # PBU看板自动Git同步 - 执行记录
 
+## 2026-08-01 21:52
+- **Pull**: ❌ 失败 — GitHub 无法连通（Connection reset / Could not connect to server）
+- **变更文件**: .workbuddy/automations/automation-1781010678362/memory.md（追加执行记录，7行新增）
+- **Commit**: e729908 - "auto sync: 自动同步看板数据"（本地提交成功）
+- **Push**: ❌ 失败 — GitHub 443 端口无法连接，网络不通
+- **状态**: ⚠️ 部分成功（本地已提交，远程推送失败，待网络恢复后手动 push）
+
 ## 2026-07-31 09:50
 - **Pull**: 远程已是最新，无需拉取
 - **变更文件**: .workbuddy/automations/automation-1781010678362/memory.md（追加执行记录，7行新增）
