@@ -3312,8 +3312,10 @@ function renderAssess(d){
 
 // ── 架构图 ──
 function renderOrg(d){
+  const isOld = (d.month==='2026-05'||d.month==='2026-06');
+  const img = isOld?'org_chart_old.png':'org_chart.png';
   return `<div style="text-align:center;padding:12px;background:#fafafa;border-radius:8px">
-    <img src="org_chart.png" class="org-preview" onclick="previewImage(this)" alt="PBU组织架构图" title="点击预览大图">
+    <img src="${img}" class="org-preview" onclick="previewImage(this)" alt="PBU组织架构图" title="点击预览大图">
     <p style="margin-top:8px;font-size:12px;color:#888">点击图片查看大图</p>
   </div>
   <div class="ana">▶ ${d.org_chart}</div>`;
